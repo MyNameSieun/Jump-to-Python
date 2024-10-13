@@ -41,7 +41,7 @@ print(a is b) # False
 
 
 # TODO: 변수의 복사 - copy 모듈 이용하여 다르게 복사
-# ? form copy import copy
+# ? form copy import copy 안해도 copy 되는 이유
 a=[1,2,3]
 b=a.copy()
 
