@@ -22,7 +22,7 @@ print(a.index("b")) # 2
 
 
 
-# 문자열 삽입 - join
+# 문자열 삽입 - join⭐
 print(",".join("abcd")) # a,b,c,d
 
 # 소문자를 대문자로 바꾸기 - upper
