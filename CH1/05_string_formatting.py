@@ -16,6 +16,7 @@ print(a) # Error is 98%.
 
 
 # 포맷 코드 %s를 이용한 문자열 대입
+# * %s는 전달된 값이 숫자든 문자열이든 관계없이, 해당 값을 문자열로 변환해 출력
 a= "I have %s apples" % 3
 print(a) # I have 3 apples
 
@@ -38,10 +39,12 @@ TODO: 포맷 코드와 숫자 함께 사용하기
 """
 
 # 정렬과 공백
-a="%10s" % "hi" # 전체 길이가 10개인 문자열 공간에서 대입되는 값 오른쪽 정렬하고 그 앞 나머지 공백
-print(a) #         hi (공백 8개)
+a="%s안녕" % "good" # 정렬x
+print(a) # good안녕
 
-# ? 이해 안됨 ppt chp2 17장
+a="%10shi" % "good" # 전체 길이가 10개인 문자열 공간에서 대입되는 값 오른쪽 정렬하고 그 앞 나머지 공백
+print(a) #       goodhi
+
 a="%-10shi" % "good"
 print(a) # good      hi
 
