@@ -42,6 +42,12 @@ TODO: 포맷 코드와 숫자 함께 사용하기
 a="%s안녕" % "good" # 정렬x
 print(a) # good안녕
 
+a="%10s"%"hi"
+print(a) #         hi
+
+a="%-10s"%"hi"
+print(a) # hi
+
 a="%10shi" % "good" # 전체 길이가 10개인 문자열 공간에서 대입되는 값 오른쪽 정렬하고 그 앞 나머지 공백
 print(a) #       goodhi
 
