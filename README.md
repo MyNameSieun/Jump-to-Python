@@ -1,3 +1,7 @@
+# 시은이의 정리 노트
+
+![list, tuple](<src/img/list, tuple.jpg>)![dictionary, set](<src/img/dictionary, set.jpg>)
+
 1. 사칙 연산자의 / 연산자의 몫 연산자 // 차이는?
 
 2. 문자열 슬라이싱에서 `0`은 문자열의 첫 번째 문자, `-1`은 문자열의 맨 마지막 문자를 의미한다.
@@ -25,11 +29,15 @@
 
 11. 집합은 순서가 없지만 리스트, 튜플은 순서가 있다.
 
+12. append, insert, extend 차이 제대로 알자
+
 ---
 
-<br>
+<br><br>
 
-# CH1
+# 챕터 별 문제
+
+## CH1
 
 <details>
   <summary>02 number-type</summary>
@@ -671,7 +679,7 @@ bool(100)
 
 <br><br>
 
-# CH2
+## CH2
 
 <details>
   <summary>01 list</summary>
@@ -710,7 +718,7 @@ a = [1, 2, ['Life', 'is', 'too', 'short']]
 다음 리스트의 출력 결과는 무엇일까요?
 
 ```python
-
+a=[1,2,3,["a","b","c"],4,5]
 print(a[0:2]) #
 print(a[:2]) #
 print(a[2:]) #
@@ -764,7 +772,7 @@ a = [3, 1, 4, 5, 2]
 
 > 문제8
 
-리스트에 새로운 요소 [7, 8]을 추가하는 코드를 작성하세요.
+리스트에 새로운 요소 [7, 8]을 추가하는 코드를 두 가지 방식으로 작성하세요.
 
 ```python
 a = [1, 2, 3, 4, 5, 6]
@@ -809,14 +817,6 @@ a=[4, 1, 2, 3]
 ```python
 a=[1,2,3,1,2,3]
 a.remove(3)
-```
-
-> 문제14
-
-리스트 a를 확장하여 [4,5]를 추가하는 코드를 작성해보세요.
-
-```python
-a=[1,2,3]
 ```
 
 </details>
@@ -1082,7 +1082,7 @@ s1=set([1,2,3])
 
 <br><br>
 
-# CH3
+## CH3
 
 <details>
   <summary>01 if</summary>
@@ -1337,7 +1337,7 @@ strings = ["apple", "banana", "cherry", "date", "fig", "grape"]
 
 <br><br>
 
-# CH4
+## CH4
 
 <details>
   <summary></summary>

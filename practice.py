@@ -1,6 +1,3 @@
-a = "%10s" % "apple"
-print(a)
+a = [3, 1, 2, 3, 4, 3, 5]
 
-a = "%-10s" % "apple"
-print(a)
-
+print(a.count(3))
