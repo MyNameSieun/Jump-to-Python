@@ -102,8 +102,6 @@ for i in range(1,11):
 f.close()
 
 
-
-
 # TODO: with 문과 함께 사용하기
 # ! with를 사용하면 close를 사용하지 않아도 된다. (파일을 열고 닫는 것을 자동으로 처리)
 with open("새파일.txt","w") as f:
