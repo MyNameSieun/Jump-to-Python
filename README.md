@@ -1,6 +1,7 @@
 # 시은이의 정리 노트
 
 ![list, tuple](<src/img/list, tuple.jpg>)![dictionary, set](<src/img/dictionary, set.jpg>)
+![](2024-10-17-19-57-02.png)
 
 1. 사칙 연산자의 / 연산자의 몫 연산자 // 차이는?
 

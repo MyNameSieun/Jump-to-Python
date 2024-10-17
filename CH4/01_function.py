@@ -72,12 +72,12 @@ print(result) # 120
 
 
 # 키워드 매개변수, kwargs
-# * 관례적인 사용: kwargs
+# * **kwargs처럼 매개변수 앞에 **을 붙이면 딕셔너리가 되며, 입력 값들은 해당 딕셔너리에 저장
+# * **kwargs는 관용적인 표현
 
 def print_kwargs(**kwargs):
     print(kwargs)
 
-# * 딕셔너리가 되며, 입력 값들은 해당 딕셔너리에 저장
 print_kwargs(a=1) # {'a': 1}
 print_kwargs(name="foo",age=3) # {'name': 'foo', 'age': 3}
 
@@ -98,8 +98,9 @@ say_myself("박응선",27,False) # 나의 이름은 박응용 입니다.\n나이
 
 
 
-# TODO: 함수의 리턴값은 하나? 여러개?
+# TODO: 함수의 리턴값은 하나? 여러개? => 하나!!
 # * 파이썬은 함수에서 여러 개의 값을 리턴할 때 tuple이라는 자료형으로 묶어서 리턴, 즉 함수는 튜플 하나를 리턴함
+# 명시적인 반환
 def add_and_mul(a,b):
     return a+b, a*b
 
@@ -123,23 +124,24 @@ vartest(a)
 print(a) # 1
 
 
-# 명시적인 반환
 a=1
-def vartest(a):
+def vertest(a):
     a=a+1
     return a
 
-a=vartest(a)
+
+vartest(a) # 
+a=vertest(a)
 print(a) # 2
 
 
-# global 키워드 사용
+# global
 a=1
 def vartest():
     global a # 함수 밖에 있는 변수 a 사용
     a=a+1
 
-vartest()
+vartest() 
 print(a) # 2
 
 
