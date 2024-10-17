@@ -23,7 +23,7 @@ def add(a,b):
 
 a=add(3,4) # 3 4의 합은 7 입니다.
 
-# ! 함수는 값을 반환하지 않기 때문에 print(a)를 하면 None이 출력더ㅣㄴ다.
+# ! 함수는 값을 반환하지 않기 때문에 print(a)를 하면 None이 출력된다.
 print(a) # None
 
 
