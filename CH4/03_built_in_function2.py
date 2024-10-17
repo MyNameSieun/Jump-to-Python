@@ -1,17 +1,29 @@
+"""
+아스키코드는 1바이트, 유니코드는 3바이트
+"""
 
 # TODO: chr(i)
-# * 유니코드 숫자 값을 입력받아 그 코드에 해당하는 숫자를 반환
+# * chr() 함수는 아스키 코드와 유니코드 값을 문자로 변환
 
-a=chr(0xac00)
-print(a) # 가
+# 유니코드
+print(chr(0xac00)) # 가
+print(chr(0xac01)) # 각
+print(chr(0xac02)) # 갂
+print(chr(0xac03)) # 갃
+print(chr(0xac04)) # 간
 
+# 아스키코드
+print(chr(64)) # @
+print(chr(65)) # A
+print(chr(66)) # B
 
 
 # TODO: ord(c)
-# * 입력된 문자의 유니코드 숫자 값을 반환
+# * 입력된 한 문자의 유니코드 숫자 값을 반환
+# * ord() 함수는 아스키코드 및 유니코드 문자를 숫자로 변환 (한 개의 문자만 입력 가능)
 
-a=ord("가")
-print(a) # 44032
+a = ord("가")
+print(a)  # 44032
 
 
 # TODO: divmod(a,b)
@@ -88,3 +100,4 @@ print(a) # [(1, 4, 7), (2, 5, 8), (3, 6, 9)]
 
 a=list(zip("abc","def"))
 print(a) # [('a', 'd'), ('b', 'e'), ('c', 'f')]
+
