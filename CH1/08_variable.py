@@ -81,7 +81,7 @@ print((a,b)) # ('python', 'python')
 # 변수의 변경
 a=3
 b=5
-a,b=b,a
+a,b=b,a # ! 이 코드도 튜플이다. -> 내부적으로 튜플로 인지를 한다. 즉, (a,b)=(b,a)와 같음
 
 print(a) # 5
 print(b) # 3

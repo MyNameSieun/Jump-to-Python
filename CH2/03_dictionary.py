@@ -34,7 +34,7 @@ print(a) # {2: 'b', 'name': 'pey', 3: [1, 2, 3]}
 
 
 # TODO: key를 이용하여 Value 구하기
-# ! 튜플은 key로 가능하나 리스트는 불가능하다.
+# ! key는 immutable 한 것만 가능 -> 따라서, 튜플은 key로 가능하나 리스트는 불가능하다.
 # ! 딕셔너리의 key 사용 여부는 key가 immutable 여부에 따라 다르다.
 grade={"pey":10,"julliet":99}
 a=grade["pey"]
@@ -118,7 +118,7 @@ b=a["name"]
 print(b) # pey
 
 b=a.get("nokey")
-print(b) # None
+print(b) # None, 에러는 나지 않음
 
 # ! 딕셔너리 a에 "nokey"라는 키가 존재하지 않기 때문에 오류 발생
 # b=a["nokey"]

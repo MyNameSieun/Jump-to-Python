@@ -55,7 +55,7 @@ print(bool((1,2,3))) # True
 print(bool()) # False
 
 # True: 참 (1로 취급), False: 거짓 (0으로 취급) 
-# 0이 아닌 숫자 (예: -1, 1, 100 등): True로 변환
+# ! 0이 아닌 숫자 (예: -1, 1, 100 등): True로 변환
 print(bool(1)) # True
 print(bool(0)) # False
 print(bool(-1)) # True
